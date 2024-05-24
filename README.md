@@ -1,3 +1,7 @@
+# [ABANDONED!] this package moved to [j-mastr/sevdesk-php-sdk](https://github.com/j-mastr/sevdesk-php-sdk)
+
+The repository moved to a different owner, the package owner stays the same but the package was renamed to `itsmind/sevdesk-php-sdk`. To migrate, please change the dependency in your `composer.json` to `itsmind/sevdesk-php-sdk`. Everything else, the class names, interfaces etc. are unchanged.
+
 # itsmind/sevdesk-php-sdk
 
 > This unofficial package provides an SDK to access the [sevDesk API](https://api.sevdesk.de/) using PHP. It is auto-generated using the [OpenAPI-Generator](https://openapi-generator.tech), based on the tweaks provided by the [sevdesk-api project](https://github.com/j-mastr/sevdesk-api).

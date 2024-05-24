@@ -1,7 +1,7 @@
 {
     "name": "itsmind/sevdesk-php-client",
     "type": "library",
-    "description": "This package was renamed to itsmind/sevdesk-php-sdk. Please use that package instead. To migrate, you only have to replace the dependency in your composer.json, everything else remains the same. An unofficial SDK for the official sevDesk API. Always up to date, powered by [sevdesk-api](https://github.com/j-mastr/sevdesk-api) and the OpenAPI Generator.",
+    "description": "This package was renamed to itsmind/sevdesk-php-sdk. Please use that package instead. To migrate, you only have to replace the dependency in your composer.json, everything else remains the same.",
     "keywords": [
         "php",
         "sdk",

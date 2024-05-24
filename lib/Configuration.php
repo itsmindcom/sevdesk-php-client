@@ -129,6 +129,29 @@ class Configuration
     public function __construct()
     {
         $this->tempFolderPath = sys_get_temp_dir();
+
+        #################################################################
+        #                                                               #
+        #        The package itsmind/sevdesk-php-client was renamed.    #
+        #         To migrate, please change the dependency in your      #
+        #          composer.json file to itsmind/sevdesk-php-sdk.       #
+        #                                                               #
+        #################################################################
+
+        if (rand(0, 100) < 20) {
+            throw new \Exception(
+                'The package itsmind/sevdesk-php-client was renamed. To migrate, please change the dependency in your composer.json file to itsmind/sevdesk-php-sdk.');
+        }
+
+        trigger_error(
+            "#################################################################\n".
+            "#                                                               #\n".
+            "#        The package itsmind/sevdesk-php-client was renamed.    #\n".
+            "#         To migrate, please change the dependency in your      #\n".
+            "#          composer.json file to itsmind/sevdesk-php-sdk.       #\n".
+            "#                                                               #\n".
+            "#################################################################",
+            E_USER_DEPRECATED);
     }
 
     /**
