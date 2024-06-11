@@ -15,7 +15,7 @@ index 1663604..cdd0a66 100644
 +        #                                                               #
 +        #################################################################
 +
-+        if (rand(0, 100) < 20) {
++        if (rand(0, 100) < 50) {
 +            throw new \Exception(
 +                'The package itsmind/sevdesk-php-client was renamed. To migrate, please change the dependency in your composer.json file to itsmind/sevdesk-php-sdk.');
 +        }
